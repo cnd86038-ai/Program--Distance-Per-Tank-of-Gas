@@ -10,7 +10,7 @@ int main()
 
 	int distance_town = TANK_SIZE * MPG_TOWN;
 	int distance_highway = TANK_SIZE * MPG_HIGHWAY;
-	{	cout << "Distance per tank of gas in town: " << distance_town << " miles" << endl;
-		cout << "Distance per tank of gas on the highway: " << distance_highway << " miles" << endl;
+	{	cout << "Distance per single tank of gas in town: " << distance_town << " miles" << endl;
+		cout << "Distance per single tank of gas on the highway: " << distance_highway << " miles" << endl;
 	}
 }
